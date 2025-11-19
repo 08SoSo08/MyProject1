@@ -1,0 +1,49 @@
+body {
+    background: #222;       /* фон страницы */
+    color: #f9f5f5;
+  }
+
+  .site-header {
+    display: flex;
+    flex-direction: column; /* логотип сверху, меню ниже */
+    align-items: center;    /* центрируем по горизонтали */
+    background: #333;      /* цвет шапки */
+    padding: 20px 0;             /* вертикальные отступы */
+  }
+  .logo_foto {
+    width: 120px;           /* размер логотипа */
+    height: 120px;
+    border-radius: 50%;     /* делает фото круглым */
+    object-fit: cover;       /* сохраняет пропорции и обрезает лишнее */
+    margin-bottom: 15px;     /* расстояние до меню */
+
+  }
+  .nav-bar {
+    display: flex;               /* используем flexbox */
+    justify-content: space-around; /* равное расстояние между ссылками */
+    max-width: 800px;            /* ограничиваем ширину шапки */
+    margin: 0 auto;              /* центрируем шапку по горизонтали */
+  }
+  .nav-bar a {
+    color: white;                /* цвет текста */
+    text-decoration: none;       /* убираем подчеркивание */
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    transition: color 0.3s;      /* плавное изменение цвета при наведении */
+}
+
+.nav-bar a:hover {
+    color: #ffcc00;             /* цвет при наведении */
+  }
+
+.center-image {
+    display: flex;
+    justify-content: center;  /* по центру горизонтально */
+    margin-top: 40px;         /* просто отступ сверху, можно убрать */
+}
+
+.text-center {
+    text-align: center;
+}
+
+
