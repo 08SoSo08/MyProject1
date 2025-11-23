@@ -1,7 +1,39 @@
-body {
-    background: #222;       /* фон страницы */
-    color: #f9f5f5;
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.bilder {
+    background-image: url("Fotos/bilder_background.jpg");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
   }
+
+body.index {
+    background-image: url("Fotos/in");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
+  }
+
+body.links {
+    background-image: url("Fotos/bilder_background.jpg");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
+  }
+
+body.ubermich {
+    background-image: url("Fotos/ubermich_background.jpg");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
+  }
+
+
 
   .site-header {
     display: flex;
