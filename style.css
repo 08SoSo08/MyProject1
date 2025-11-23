@@ -13,7 +13,7 @@ body.bilder {
   }
 
 body.index {
-    background-image: url("Fotos/in");
+    background-image: url("Fotos/index_background.jpg");
     background-size: cover; /* адаптация под экран */
     background-repeat: no-repeat; /* центрирование */
     background-position: center; /* без повторов */
@@ -36,32 +36,41 @@ body.ubermich {
 
 
   .site-header {
-    display: flex;
-    flex-direction: column; /* логотип сверху, меню ниже */
-    align-items: center;    /* центрируем по горизонтали */
-    background: #333;      /* цвет шапки */
-    padding: 20px 0;             /* вертикальные отступы */
+    position: relative;      /* главное! иначе проценты будут от экрана */
+    width: 100%;
+    height: 7%;
+    margin: 0 auto;
+    background: #333;
   }
-  .logo_foto {
-    width: 120px;           /* размер логотипа */
-    height: 120px;
-    border-radius: 50%;     /* делает фото круглым */
-    object-fit: cover;       /* сохраняет пропорции и обрезает лишнее */
-    margin-bottom: 15px;     /* расстояние до меню */
 
-  }
+.logo_link img {
+    position: absolute;      /* теперь можно двигать внутри контейнера */
+    top: 15%;                /* 20% от высоты контейнера */
+    left: 1%;               /* 50% от ширины контейнера */
+    width: auto;
+    height: 70%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
   .nav-bar {
-    display: flex;               /* используем flexbox */
-    justify-content: space-around; /* равное расстояние между ссылками */
-    max-width: 800px;            /* ограничиваем ширину шапки */
-    margin: 0 auto;              /* центрируем шапку по горизонтали */
-  }
-  .nav-bar a {
-    color: white;                /* цвет текста */
-    text-decoration: none;       /* убираем подчеркивание */
-    font-size: 30px;
-    font-family: Arial, sans-serif;
-    transition: color 0.3s;      /* плавное изменение цвета при наведении */
+    position: absolute;
+    top: 50%;             /* 50% от высоты контейнера */
+    left: 50%;            /* 50% от ширины контейнера */
+    transform: translate(-50%, -50%); /* сдвигаем по горизонтали и вертикали на 50% своей ширины/высоты */
+    display: flex;
+    justify-content: space-around;
+    /* gap: 5%; */
+    width: 70%;
+
+}
+.nav-bar a {
+    color: #ffffff;           /* цвет текста, например белый */
+    font-family: 'Arial', sans-serif;  /* шрифт текста */
+    font-size: 2vw;        /* размер шрифта */
+    text-decoration: none;    /* убираем подчеркивание у ссылок */
+    font-weight: 500;         /* толщину текста */
+    transition: color 0.3s;   /* плавное изменение цвета при hover */
 }
 
 .nav-bar a:hover {
