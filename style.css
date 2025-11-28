@@ -10,6 +10,8 @@ body.bilder {
     background-size: cover; /* адаптация под экран */
     background-repeat: no-repeat; /* центрирование */
     background-position: center; /* без повторов */
+    background-attachment: fixed;
+    
   }
 
 body.index {
@@ -17,6 +19,7 @@ body.index {
     background-size: cover; /* адаптация под экран */
     background-repeat: no-repeat; /* центрирование */
     background-position: center; /* без повторов */
+    background-attachment: fixed;
   }
 
 body.links {
@@ -24,6 +27,7 @@ body.links {
     background-size: cover; /* адаптация под экран */
     background-repeat: no-repeat; /* центрирование */
     background-position: center; /* без повторов */
+    background-attachment: fixed;
   }
 
 body.ubermich {
@@ -31,16 +35,18 @@ body.ubermich {
     background-size: cover; /* адаптация под экран */
     background-repeat: no-repeat; /* центрирование */
     background-position: center; /* без повторов */
+    background-attachment: fixed;
   }
 
 
 
   .site-header {
-    position: relative;      /* главное! иначе проценты будут от экрана */
+    position: fixed;      /* главное! иначе проценты будут от экрана */
     width: 100%;
     height: 7%;
     margin: 0 auto;
     background: #333;
+    z-index: 20;
   }
 
 .logo_link img {
@@ -50,7 +56,7 @@ body.ubermich {
     width: auto;
     height: 70%;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
   .nav-bar {
@@ -87,4 +93,39 @@ body.ubermich {
     text-align: center;
 }
 
+.myinfo {
+  position: absolute;
+  top: 10%;               
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;         /* ширина родителя */
+  height: auto;
+  z-index: 10;            
+}
 
+.myinfo_img {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+.myinfo_intra{
+  position: absolute;
+  top: 5px;
+  left: 250px;
+  width: 450px;
+  font-size: larger;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+  
+
+}
+
+.myinfo_content {
+  position: relative;
+  top: 2%;
+  width: 650px;
+  font-size: larger;
+  background: rgba(255,255,255,0.1);
+  padding: 10px;
+}
