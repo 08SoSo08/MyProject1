@@ -137,11 +137,14 @@ body.ubermich {
   left: 0%;
 }
 
-.bilder {
+.bilder_galery {
   position: relative;
-  top: 5%;               
+  top: 10%;               
 
 }
  .bilderimg1 {
   position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
  }
