@@ -42,11 +42,12 @@ body.ubermich {
 
   .site-header {
     position: fixed;      /* главное! иначе проценты будут от экрана */
+    top: 0%;
     width: 100%;
     height: 7%;
     margin: 0 auto;
     background: #333;
-    z-index: 20;
+    z-index: 20; 
   }
 
 .logo_link img {
@@ -128,4 +129,16 @@ body.ubermich {
   font-size: larger;
   background: rgba(255,255,255,0.1);
   padding: 10px;
+}
+
+.home {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+.bilder {
+  position: absolute;
+  top: 10%;               
+ 
 }
