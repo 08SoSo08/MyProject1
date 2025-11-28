@@ -138,7 +138,10 @@ body.ubermich {
 }
 
 .bilder {
-  position: absolute;
-  top: 10%;               
- 
+  position: relative;
+  top: 5%;               
+
 }
+ .bilderimg1 {
+  position: absolute;
+ }
