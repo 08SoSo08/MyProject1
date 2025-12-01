@@ -41,7 +41,7 @@ body.ubermich {
   }
 
 
-
+ /* Das ist Header */
   .site-header {
     position: fixed;      /* главное! иначе проценты будут от экрана */
     top: 0%;
