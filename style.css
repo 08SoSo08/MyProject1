@@ -229,3 +229,24 @@ body.ubermich {
   width: 500px;
   height: 290px;
  }
+
+
+ .index-title {
+  /*width: 80%;                растягиваем блок на всю ширину */
+  text-align: center;
+  margin: 5% auto 30px auto;  /* сверху 0, снизу 30px, центрируем горизонтально */
+  padding: 0;                
+  font-family: 'Arial', sans-serif;
+  z-index: 15;               /* чтобы не перекрывался хедером */
+  position: relative;        /* важно для z-index */
+  max-width: 1050px;
+  background: rgba(252, 251, 251, 0.452);  
+ }
+
+  .index-title h1 {
+  font-size: 4rem;           /* размер шрифта */
+  font-weight: 700;           /* жирный текст */
+  color: #000000;                /* цвет текста */
+  line-height: 1.2;           /* межстрочный интервал */
+  margin: 0;                  /* убираем лишние отступы */
+  }
