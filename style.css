@@ -84,7 +84,7 @@ body.ubermich {
 
 .nav-bar a:hover {
     color: #ffcc00;             /* цвет при наведении */
-  }
+}
 
 .center-image {
     display: flex;
@@ -96,6 +96,41 @@ body.ubermich {
     text-align: center;
 }
 
+.site-footer {
+    position: relative;  
+    width: 100%;
+    height: 15%;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    z-index: 20;
+}
+.footer-inner {
+  max-width: 30%;
+  margin: 0 auto;  /* центрируем */
+  display: flex;   /* дети в ряд */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer-info,
+.footer-kontakt {
+  font-size: 17px;
+}
+.footer-info a {
+  color: white;
+}
+
+.site-footer h1 {
+  font-size: 2rem;           /* размер шрифта */
+  font-weight: 700;           /* жирный текст */
+  color: #e6dede;                /* цвет текста */
+  line-height: 1.2;           /* межстрочный интервал */
+  margin: 0;                  /* убираем лишние отступы */
+  }
+.site-footer .footer-info, .footer-kontakt p {
+  line-height: 1.5;
+}
 .myinfo {
   position: absolute;
   top: 10%;               
