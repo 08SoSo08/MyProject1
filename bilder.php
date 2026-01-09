@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="bilder">
-        <header data-include="header.html" class="site-header"></header>
+    <?php include 'Header.php';?>     
         <div class="title"><h1>Mein Leben in Bildern!</h1></div>
         <div class="bilder_galery"> 
             <div class="bilderimg"><img src="Fotos/awatar.jpeg" alt="h8"><p>Man kann ewig drei Dinge betrachten: wie Wasser fließt, wie Feuer brennt und wie Kollegen arbeiten.</p></div>
@@ -25,6 +25,5 @@
         
         </div>
 
-        <script src="include.js"></script>
     </body>
 </html>

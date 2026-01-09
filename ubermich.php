@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="ubermich">
-        <header data-include="header.html" class="site-header"></header>
+    <?php include 'Header.php';?>  
         <div class="myinfo">
             <div class="myinfo_img"><img src="Fotos/awatar.jpeg" alt="awatar"> <br> <h1><b>Ich bin Hulk</b></h1>             
                 <div class="myinfo_content"><p>Wenn ich aufwache, wirkt die Welt klein. Eng. Zerbrechlich. Manchmal 
@@ -50,7 +50,6 @@
                 der lauter ist. <br> <br>Und ja – das bin ich. <br> <br>Ich heiße <b> Hulk</b>.</div>
         </div>
 
-        
+      
     </body>
-    <script src="include.js"></script>
 </html>

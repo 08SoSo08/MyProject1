@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="index">
-        <header data-include="header.html" class="site-header"></header>
+    <?php include 'Header.php';?>
         <div class="index-title">
                 <h1>Willkommen auf meiner Webseite.</h1>
         </div>
@@ -15,6 +15,5 @@
                 
             </div>
         </div>
-        <script src="include.js"></script>
     </body>
 </html>

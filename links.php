@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="links">
-        <header data-include="header.html" class="site-header"></header>
+    <?php include 'Header.php';?>     
         <div class="links-title"><h1> Meine Videogalerie</h1></div>
         <div class="video_galery">
             <div>  <iframe class="iframe-box"
@@ -51,6 +51,5 @@
             allowfullscreen>
             </iframe></div>
         </div>
-        <script src="include.js"></script>
     </body>
 </html>
