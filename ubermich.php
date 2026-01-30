@@ -50,6 +50,6 @@
                 der lauter ist. <br> <br>Und ja – das bin ich. <br> <br>Ich heiße <b> Hulk</b>.</div>
         </div>
 
-      
+    <?php include 'Footer.php';?>  
     </body>
 </html>

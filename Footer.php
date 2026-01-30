@@ -16,6 +16,20 @@
                     Adr: Industriestraße 10 - 12, 49681 Garrel <br>
 
                 </p>
-            </div>   
+            </div> 
+            <div class="footer-logos">
+                <h1>Follow Me</h1>
+                <p>
+                    <a href="https://www.facebook.com/" class="footer-logo-link">
+                        <img src="Fotos/facebook_logo.png" alt="Facebook">
+                    </a><br>
+                    <a href="http://instagram.com/" class="footer-logo-link">
+                        <img src="Fotos/instagram_logo.png" alt="Instagram">
+                    </a><br>
+                    <a href="https://x.com/" class="footer-logo-link">
+                        <img src="Fotos/twitter_logo.png" alt="Twitter">
+                    </a>
+                </p>
+            </div>  
     </div>
 </footer>
