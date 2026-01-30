@@ -22,10 +22,10 @@
                 <p>
                     <a href="https://www.facebook.com/" class="footer-logo-link">
                         <img src="Fotos/facebook_logo.png" alt="Facebook">
-                    </a><br>
+                    </a>
                     <a href="http://instagram.com/" class="footer-logo-link">
                         <img src="Fotos/instagram_logo.png" alt="Instagram">
-                    </a><br>
+                    </a>
                     <a href="https://x.com/" class="footer-logo-link">
                         <img src="Fotos/twitter_logo.png" alt="Twitter">
                     </a>
