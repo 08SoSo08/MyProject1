@@ -1,3 +1,4 @@
+<?php include 'auth_check.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,9 +12,7 @@
                 <h1>Willkommen auf meiner Webseite.</h1>
         </div>
         <div>
-            <div>
-                
-            </div>
+           
         </div>
     <?php include 'Footer.php';?>    
     </body>

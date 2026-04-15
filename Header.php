@@ -7,5 +7,7 @@
             <a href="ubermich.php">Über mich</a>
             <a href="bilder.php">Bilder</a>
             <a href="links.php">Links</a>
+            <a href="insertDB.php">insertDB</a>
+            <a href="Dashboard.php">Dashboard</a>
         </nav>
     </header>

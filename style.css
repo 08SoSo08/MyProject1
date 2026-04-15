@@ -15,7 +15,13 @@ body {
 main {
     padding-top: 7%; /* = высота header */
  }
-
+bodi.dashboard {
+    background-image: url("Fotos/ubermich_background.jpg");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
+    background-attachment: fixed;
+}
 body.bilder {
     padding-top: 7%;
     background-image: url("Fotos/bilder_background.jpg");
@@ -49,6 +55,13 @@ body.ubermich {
     background-position: center; /* без повторов */
     background-attachment: fixed;
   }
+body.insertDB {
+    background-image: url("");
+    background-size: cover; /* адаптация под экран */
+    background-repeat: no-repeat; /* центрирование */
+    background-position: center; /* без повторов */
+    background-attachment: fixed;
+   }
 
 
  /* Das ist Header */
@@ -306,3 +319,14 @@ body.ubermich {
   line-height: 1.2;           /* межстрочный интервал */
   margin: 0;                  /* убираем лишние отступы */
   }
+
+.index_tabele {
+  position: relative;
+  top: 5%;
+  left: 50%;
+
+    }
+  .table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
