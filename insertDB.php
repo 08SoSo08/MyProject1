@@ -33,8 +33,11 @@ if (isset($_POST['save'])) {
 <html>
 <head>
     <title>Insert</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include 'Header.php';?>
+<body class="insertDB">
 
 <h2>Einfügen</h2>
 
@@ -49,7 +52,7 @@ if (isset($_POST['save'])) {
 <p style="color:green;">
     <?php echo $message; ?>
 </p>
-
+<?php include 'Footer.php';?>
 </body>
 </html>
 
