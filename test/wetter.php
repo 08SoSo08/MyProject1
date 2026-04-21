@@ -32,44 +32,4 @@ $zeit = date("d.m.Y H:i:s", $timestamp);
 <p><b>Letzte Aktualisierung:</b> <?php echo $zeit; ?></p>
 <p><b><a href="https://www.google.com/maps/?q=<?php echo $lat; ?>,<?php echo $lon; ?>&z=6" target="_blank">iss-now ORT</a></b></p>
 
-<?php
-$type = $_POST['type'] ?? 'random';
 
-// базовые URL
-$cats = [
-    'random' => 'https://cataas.com/cat',
-    'orange' => 'https://cataas.com/cat/orange,cute',
-    'gif'    => 'https://cataas.com/cat/gif',
-    'hello'  => 'https://cataas.com/cat/says/hello?fontSize=50&fontColor=red'
-];
-
-// выбираем URL
-$url = $cats[$type] . '&rand=' . time();
-?>
-
-<h2>🐱 Cat Generator</h2>
-
-<img src="<?= $url ?>" width="350" height="350" alt="Cat">
-
-<form method="POST">
-
-    <button type="submit" name="type" value="random">
-        Random Cat
-    </button>
-
-    <button type="submit" name="type" value="orange">
-        Random Orange Cute Cat
-    </button>
-
-    <button type="submit" name="type" value="gif">
-        Random GIF Cat
-    </button>
-
-    <button type="submit" name="type" value="hello">
-        Custom "Hello" Cat
-    </button>
-
-</form>
-
-</body>
-</html>
